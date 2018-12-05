@@ -15,7 +15,7 @@ public class Main {
 
     public Main() throws IOException
     {
-        Image img= Toolkit.getDefaultToolkit().createImage("src//ru//mirea//BumazhnySamoletik.gif");
+        Image img= Toolkit.getDefaultToolkit().createImage("src//ru//mirea//giphy.gif");
         ImageIcon icon=new ImageIcon(img);
         JFrame frame=new JFrame();
         frame.setLayout(new FlowLayout());
